@@ -16,6 +16,7 @@ module FormsLab
       @name = params[:pirate["name"]]
       @height = params[:pirate["height"]]
       @weight = params[:pirate["weight"]]
+      binding.pry
       @ship_name_1 = params[:pirate["ships"][1]["name"]]
       @ship_type_1 = params[:pirate["ships"][1]["type"]]
       @ship_booty_1 = params[:pirate["ships"][1]["booty"]]
