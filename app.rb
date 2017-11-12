@@ -13,8 +13,8 @@ module FormsLab
     end
 
     post '/pirates' do
-      @name = params[:pirate[name]]
-      @height = params[:pirate[height]]
+      @name = params[:pirate["name"]]
+      @height = params[:pirate["height"]]
       @weight = params[:pirate[weight]]
       @ship_name_1 = params[:pirate[ships][][name]]
       @ship_type_1 = params[:pirate[ships][][type]]
