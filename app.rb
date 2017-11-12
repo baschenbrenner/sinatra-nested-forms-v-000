@@ -23,7 +23,7 @@ module FormsLab
       @ship_name_2= params[:pirate]["ships"][1]["name"]
       @ship_type_2= params[:pirate]["ships"][1]["type"]
       @ship_booty_2 = params[:pirate]["ships"][1]["booty"]
-      erb :show
+      erb :'pirates/show'
     end
 
 
